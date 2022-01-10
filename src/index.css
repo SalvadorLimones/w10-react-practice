@@ -1,0 +1,17 @@
+.par {
+  background-color: yellow;
+}
+
+#egyedi {
+  background-color: green;
+}
+
+.carBrand1 {
+  border:  1px solid green;
+  margin: 5px;
+}
+
+.carBrand2 {
+  border:  1px solid red;
+  margin: 5px;
+}
