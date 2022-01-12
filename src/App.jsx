@@ -16,7 +16,10 @@ const App = () => {
       <button onClick={() => switchPage("Home Page")}>Home Page</button>
       <button onClick={() => switchPage("Landing Page")}>Landing Page</button>
       <button onClick={() => switchPage("About Page")}>About Page</button>
-      <h3>{currentPage}</h3>
+      {/* <h3>{currentPage}</h3> */}
+      {currentPage === "Home Page" && <h3>Home Page</h3>}
+      {currentPage === "Landing Page" && <h3>Landing Page</h3>}
+      {currentPage === "About Page" && <h3>About Page</h3>}
     </div>
   )
 }
